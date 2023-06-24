@@ -7,7 +7,10 @@ include"../includes/menu.php";
 <h1>novo Compositor</h1>
 <p>Vamos cadastrar um Novo Compositor no sistema.</p>
 <br>
+
+<div class="form-group">
 <form action="inserir.php" method="post">
+
     nome: <input name="nome" require maxlength="100">
     <br>
     Sua Cidade: <input name="cidade"  require maxlength="100">
@@ -18,7 +21,7 @@ include"../includes/menu.php";
      <br>
     tipo: <input name="tipo"  require maxlength="50">
      <br>
-    
+    </div>
      
 <br>
     <button type="submit">SALVAR</button>

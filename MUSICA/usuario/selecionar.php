@@ -38,8 +38,8 @@ include"../includes/conexao.php";
    
    
     <td>
-        <a href="#">Visualizar</a>
-        <a href="#">Editar</a>
+        <a href="visualizar.php?id=<?php echo $um_usuario['id'];?>">Visualizar</a>
+        <a href="editar.php?id=<?php echo $um_usuario['id'];?>">Editar</a>
         <a href="deletar.php?id=<?php echo $um_usuario['id'];?>">Excluir</a>
     </td>
  </tr>
